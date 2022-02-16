@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.banner{
+    background-image: url('Banner.jpg');
+    height: 40em;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color:white;
+    height: 200px;
+
+    
+}

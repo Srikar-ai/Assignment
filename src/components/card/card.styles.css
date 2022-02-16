@@ -1,0 +1,185 @@
+
+
+.Main{
+    height: auto;
+    display: flex;
+    max-width:auto;
+}
+.card{
+    border: 2px solid black;
+    width:31.25rem;
+    margin:5px;
+    height: 43.75rem;
+    border-radius: 10px;
+    margin-right: 10px;
+
+
+}
+.image{
+    background-position: center;
+    background-size: cover;
+    height: 45%;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0.5em;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-right: 10px;
+    width: 100%;
+    height: 5.625rem;
+
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: rgb(173, 173, 173);
+    min-width:5.625rem;
+    height: 70px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    
+}
+h6{
+    margin-top: 0;
+    text-align: center;
+}
+.description-container{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.description{
+    border: 1px solid black;
+    width: auto;
+    padding:10px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 100px 100px 100px 100px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.costtitle{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 100px  ;
+    font-weight: bolder;
+}
+.text{
+
+    margin: 0;
+}
+.cost{
+    margin: 0;
+    color:red;
+    font-weight: 900;
+}
+.iconandrating{
+
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rating h2{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    height: auto;
+    background-color: rgb(212, 133, 14);
+    color: white;
+}
+
+.reviews{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.view{
+    width: 100%;
+    height: 66px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    outline: none;
+    border: none;
+    background-color: green;
+    color:white;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.time{
+    position: absolute;
+    top:275px; 
+    left:30px;
+    display: flex;
+}
+.myimg{
+    background-color: white;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+.time span{
+    font-weight: bold;
+    margin-left: 5px;
+    color:white;
+}
+.text-image{
+    position: absolute;
+    top:275px; 
+    left:150px;
+    display: flex;
+
+}
+.location{
+    height: 25px;
+    width: 25px;
+
+    background-color: white;
+    border-radius: 100%;
+
+}
+.place-name{
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+}
