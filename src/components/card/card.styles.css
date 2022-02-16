@@ -7,8 +7,9 @@
 }
 .card{
     border: 2px solid black;
-    width:31.25rem;
+    width:27.25rem;
     margin:5px;
+    margin-top: 10px;
     height: 43.75rem;
     border-radius: 10px;
     margin-right: 10px;
